@@ -1,4 +1,3 @@
-require('dotenv').config();
 const mongoose = require('mongoose');
 const db = 'youtube';
 
@@ -14,4 +13,4 @@ async function connectingDatabase(){
     }
 };
 
-module.exports = connectingDatabase;
+module.exports = {connectingDatabase};
